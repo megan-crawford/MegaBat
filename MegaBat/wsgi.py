@@ -11,6 +11,10 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+path = 'C:/Users/megan/Documents/CSFun/MegaBat'
+if path not in sys.path:
+    sys.path.append(path)
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MegaBat.settings')
 
 application = get_wsgi_application()
