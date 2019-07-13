@@ -1,1 +1,1 @@
-web: gunicorn MegaBat.wsgi
+web: gunicorn bat.wsgi
