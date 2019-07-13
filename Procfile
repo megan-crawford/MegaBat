@@ -1,1 +1,1 @@
-web: gunicorn bat.wsgi --log-file -
+web: gunicorn MegaBat.wsgi --log-file -
