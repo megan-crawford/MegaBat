@@ -1,4 +1,4 @@
-Django==2.1.5
+Django==2.2.3
 gunicorn==19.9.0
 mysql-connector-python==8.0.15
 mysqlclient==1.4.1
